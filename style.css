@@ -1,0 +1,137 @@
+body {
+  background-color: rgb(13, 26, 45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 155px;
+  zoom: 130%;
+}
+p {
+  margin: 0;
+}
+.big-div {
+  height: 470px;
+  width: 280px;
+  /* border: 1px solid red; */
+  background-color: rgb(21, 39, 63);
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 5px 15px 0 rgba(12, 23, 41, 34);
+}
+.cover-img {
+  position: relative;
+}
+.view {
+  position: absolute;
+  top: 100px;
+  left: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  opacity: 0;
+}
+.cover-bg {
+  position: absolute;
+  top: 0px;
+  left: 1px;
+  width: 280px;
+  height: 250px;
+  border-radius: 10px;
+  background-color: rgba(2, 143, 160, 0.77);
+  opacity: 0;
+}
+.cover-img:hover .view,
+.cover-img:hover .cover-bg{
+  opacity: 1;
+}
+.img-equilibrium {
+  width: 280px;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+h2:hover {
+color: rgb(29, 249, 249);;  
+}
+h2 {
+  color: white;
+}
+.our {
+  color:  rgb(126, 149, 183);
+  width: 270px;
+  line-height: 25px;
+  font-size: 15px;
+}
+.eth-n-days {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: lightblue; */
+  /* width: 700px; */
+  /* background-color: blue; */
+}
+.img-n-eth, .image-n-days {
+  display: grid;
+}
+.img-n-eth {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+.img-n-days {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  /* background-color: lightpink; */
+}
+.eth {
+  color: rgb(29, 249, 249);
+  font-weight: 550;
+}
+.days {
+  color: rgb(147, 176, 214);
+  font-weight: 400;
+  /* background-color: lightblue; */
+}
+.line {
+  margin-top: 10px;
+  border-bottom: 1px solid  rgb(105, 127, 155);
+}
+.p-img {
+  width: 37px;
+  height: 37px;
+  border: 2px solid rgb(162, 176, 195);
+  border-radius: 50%;
+}
+.p-img-n-author-name {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+.creation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.creation-text {
+  color: rgb(105, 127, 155);
+}
+strong:hover {
+  color: rgb(29, 249, 249);;
+}
+strong {
+  color: rgb(162, 176, 195);
+} 
+.test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.img-equilibrium: hover {
+  opacity: 1;
+}
